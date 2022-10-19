@@ -1,7 +1,6 @@
 from db import db
-from db import User
-from db import Assignment
-from db import Course
+from db import Logs
+from db import Readings
 from flask import Flask
 import json
 from flask import request

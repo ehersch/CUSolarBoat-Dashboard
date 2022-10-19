@@ -8,13 +8,14 @@ logs_association_table = db.Table(
     "logsAssociation",
     db.Model.metadata,
     db.Column("logs_id", db.Integer, db.ForeignKey("logs.id")),
+    db.Column("readings_id", db.Integer, db.ForeignKey("readings.id")),
 )
 
-class Logs(db.model):
+class Logs(db.Model):
     __tablename__ = "logs"
     id = db.Column(db.Integer, primary_key=True)
     Timestamp = db.Column(db.String, nullable=False)
-    Readings = db.relationship("Readings", cascade="delete")
+    Readings = db.relationship("Readings", secondary=logs_association_table, back_populates="logs_id")
 
     def def__init__(self, **kwargs):
         self.Timestamp = kwargs.get("time")
@@ -26,7 +27,7 @@ class Logs(db.model):
             "Readings": self.Readings
         }
 
-class Readings(db.model):
+class Readings(db.Model):
     __tablename__ = "readings"
     id = db.Column(db.Integer, primary_key=True)
     V1 = db.Column(db.Integer, nullable=False)
@@ -34,6 +35,7 @@ class Readings(db.model):
     V3 = db.Column(db.Integer, nullable=False)
     C = db.Column(db.Integer, nullable=False)
     Timestamp = db.Column(db.String, nullable=False)
+    log_id = db.relationship("Logs", secondary=logs_association_table, back_populates="Readings")
 
     def __init__(self, **kwargs):
         self.Timestamp = kwargs.get("time")
