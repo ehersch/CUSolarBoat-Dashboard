@@ -6,7 +6,7 @@ import json
 from flask import request
 
 app = Flask(__name__)
-db_filename = "cms.db"
+db_filename = "Sysco.db"
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///%s" % db_filename
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
