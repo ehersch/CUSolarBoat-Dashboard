@@ -24,7 +24,7 @@ class Logs(db.Model):
         return {
             "id": self.id,
             "Timestamp": self.Timestamp,
-            "Readings": self.Readings
+            "Readings": self.Readings.sub_serialize()
         }
 
 class Readings(db.Model):
@@ -49,12 +49,22 @@ class Readings(db.Model):
         return {
             "id": self.id,
             "Timestamp": self.Timestamp,
+            "log_id": self.log_id,
             "v1": self.V1,
             "v2": self.V2,
             "v3": self.V3,
             "C": self.C
         }
 
+    def sub_serialize(self):
+        return {
+            "id": self.id,
+            "Timestamp": self.Timestamp,
+            "v1": self.V1,
+            "v2": self.V2,
+            "v3": self.V3,
+            "C": self.C
+        }
 
 # # your classes here
 # instrcutor_association_table = db.Table(
