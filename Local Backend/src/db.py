@@ -15,54 +15,57 @@ class Logs(db.Model):
     __tablename__ = "logs"
     id = db.Column(db.Integer, primary_key=True)
     Timestamp = db.Column(db.String, nullable=False)
-    Readings = db.relationship("Readings", secondary=logs_association_table, back_populates="logs_id")
+    Readings = db.relationship("Readings", secondary=logs_association_table, back_populates="log")
 
-    def def__init__(self, **kwargs):
+    def __init__(self, **kwargs):
         self.Timestamp = kwargs.get("time")
 
     def serialize(self):
         return {
             "id": self.id,
             "Timestamp": self.Timestamp,
-            "Readings": self.Readings.sub_serialize()
+            "Readings":  [r.sub_serialize() for r in self.Readings]
         }
 
 class Readings(db.Model):
     __tablename__ = "readings"
     id = db.Column(db.Integer, primary_key=True)
+    index = db.Column(db.Integer, nullable=True)
     V1 = db.Column(db.Integer, nullable=False)
     V2 = db.Column(db.Integer, nullable=False)
     V3 = db.Column(db.Integer, nullable=False)
     C = db.Column(db.Integer, nullable=False)
     Timestamp = db.Column(db.String, nullable=False)
-    log_id = db.relationship("Logs", secondary=logs_association_table, back_populates="Readings")
+    log_id = db.Column(db.Integer, nullable=False)
+    log = db.relationship("Logs", secondary=logs_association_table, back_populates="Readings")
 
     def __init__(self, **kwargs):
         self.Timestamp = kwargs.get("time")
-        self.id = kwargs.get("id")
+        self.log_id = kwargs.get("log_id")
+        self.index = kwargs.get("index")
         self.V1 = kwargs.get("V1")
         self.V2 = kwargs.get("V2")
         self.V3 = kwargs.get("V3")
-        self.C = kwargs.get("V1")
+        self.C = kwargs.get("C")
 
     def serialize(self):
         return {
             "id": self.id,
             "Timestamp": self.Timestamp,
             "log_id": self.log_id,
-            "v1": self.V1,
-            "v2": self.V2,
-            "v3": self.V3,
+            "V1": self.V1,
+            "V2": self.V2,
+            "V3": self.V3,
             "C": self.C
         }
 
     def sub_serialize(self):
         return {
-            "id": self.id,
+            "index": self.index,
             "Timestamp": self.Timestamp,
-            "v1": self.V1,
-            "v2": self.V2,
-            "v3": self.V3,
+            "V1": self.V1,
+            "V2": self.V2,
+            "V3": self.V3,
             "C": self.C
         }
 
