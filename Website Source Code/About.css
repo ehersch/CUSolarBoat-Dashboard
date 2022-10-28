@@ -23,7 +23,7 @@ html, body {
     flex-wrap: nowrap;
   }
   .about-bottom-flex-container > div {
-    padding-top: 100px;
+    padding-top: 50px;
     /*padding: 100px 100px 100px 100px;*/
     width: 20%;
     }
