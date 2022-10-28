@@ -12,16 +12,27 @@ html, body {
     flex-wrap: nowrap;
     background-color: #ffffff;
   }
-
 .home-container > div {
-    padding: 100px 100px 100px 100px;
-    }
+  padding: 100px 100px 100px 100px;
+  }
+.about-details { 
+      color: #989898; 
+      font-weight:500;
+  } 
 
 .home-image { 
     margin-top: 20px;
     margin-right: 100px;
 }
-
+#about2 {
+  background-color: #ff6060 ;
+  height: 100%;
+  padding: 50px 100px 0px 100px;
+  color:#ffffff;
+}
+.about-lower {
+  padding-right: 600px;
+}
 img {
   max-width: 150%;
   height: auto;
