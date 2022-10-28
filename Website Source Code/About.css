@@ -3,10 +3,33 @@
   :root { font-family: 'Inter var', sans-serif; }
 }
 
-
+html, body {
+  height: 100%;
+  margin: 0;
+}
 .about-flex-container {
     display: flex;
     flex-wrap: nowrap;
     background-color: #ffffff;
   }
-  
+.about-flex-container > div {
+  padding: 100px 100px 100px 100px;
+  }
+.about-details { 
+      color: #989898; 
+      font-weight:500;
+  } 
+  .about-top-image { 
+    margin-top: 20px;
+    margin-right: 100px;
+}
+#about2 {
+  background-color: #ff6060 ;
+  height: 100%;
+  padding: 10px;
+  color:#ffffff;
+}
+img {
+  max-width: 150%;
+  height: auto;
+}
