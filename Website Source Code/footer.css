@@ -1,0 +1,59 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+.footer {
+    background-color: #FF4747;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.contact {
+    color: white;
+    font-weight: 500;
+    font-size: 28;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    padding: 0px 0px 100px 10px
+}
+.email {
+    color: white;
+    font-weight: 500;
+    font-size: 28;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    padding: 0px 0px 500px 185px
+}
+.linkedin{
+    text-align: right;
+    position: absolute;
+    right: 0;
+    padding: 6px 6px 55px 0px
+}
+.instagram{
+    text-align: right;
+    position: absolute;
+    right: 0;
+    padding: 7px 66px 55px 0px
+}
+.facebook{
+    text-align: right;
+    position: absolute;
+    right: 0;
+    padding: 8px 126px 55px 0px
+}
+
+
