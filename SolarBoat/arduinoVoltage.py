@@ -1,7 +1,9 @@
 from serial import Serial
 import json
+import time
 from datetime import datetime
-s = Serial(port='/dev/cu.usbmodem11101', baudrate=9600)
+#s = Serial(port='/dev/cu.usbmodem11101', baudrate=9600)
+s = Serial(port='COM4', baudrate=9600, timeout=.1)
 from pymongo import MongoClient
 # pprint library is used to make the output look more pretty
 from pprint import pprint
@@ -20,6 +22,7 @@ serverStatusResult=db.command("serverStatus")
 while True:
     try:
         ser_bytes = str(s.readline())
+        time.sleep(1)
         ser_bytes = ser_bytes[3:len(ser_bytes) - 6]
        # print(ser_bytes)
         voltages = ser_bytes.split(", ")
