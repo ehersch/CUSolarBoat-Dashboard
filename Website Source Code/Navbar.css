@@ -1,0 +1,48 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+ul.navbar li {
+    float: left;
+    list-style-type: none;
+    padding: 0px 8px;
+}
+
+ul.navbar {
+    float: right;
+    padding: 0px 48px;
+}
+
+.nav {
+    display: block;
+    padding: 8px 16px;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition-duration: 0.4s;
+}
+
+a.bear {
+    float: left;
+    padding: 24px;
+}
+
+.nav.highlight {
+    color: #ffffff;
+    background-color: #ff6060;
+}
+
+.nav:hover {
+    background-color: #e4e4e4;
+}
+
+.highlight:hover {
+    background-color: #ff1313 !important;
+    color: #ffffff !important;
+}
+
+.header {
+    margin: 0px;
+}
