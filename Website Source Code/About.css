@@ -29,6 +29,9 @@ html, body {
   padding: 50px 100px 0px 100px;
   color:#ffffff;
 }
+.about-lower {
+  padding-right: 600px;
+}
 img {
   max-width: 150%;
   height: auto;
