@@ -1,0 +1,28 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.home-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+  }
+
+.home-container > div {
+    padding: 100px 100px 100px 100px;
+    }
+
+.home-image { 
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+img {
+  max-width: 150%;
+  height: auto;
+}
