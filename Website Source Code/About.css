@@ -4,8 +4,11 @@
 }
 
 html, body {
-  height: 100%;
+  height: auto;
   margin: 0;
+}
+.about-body {
+  background-color: #ff4747;
 }
 .about-flex-container {
     display: flex;
@@ -15,6 +18,15 @@ html, body {
 .about-flex-container > div {
   padding: 100px 100px 100px 100px;
   }
+.about-bottom-flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .about-bottom-flex-container > div {
+    padding-top: 50px;
+    /*padding: 100px 100px 100px 100px;*/
+    width: 20%;
+    }
 .about-details { 
       color: #989898; 
       font-weight:500;
@@ -24,15 +36,32 @@ html, body {
     margin-right: 100px;
 }
 #about2 {
-  background-color: #ff6060 ;
+  background-color: #ff4747 ;
   height: 100%;
   padding: 50px 100px 0px 100px;
   color:#ffffff;
 }
 .about-lower {
-  padding-right: 600px;
+  padding-right: 650px;
 }
 img {
   max-width: 150%;
   height: auto;
+}
+#about-body {
+  font-weight: 400;
+  padding-right: 30px;
+}
+#hull {
+  padding-top: 10px;
+}
+#sysco {
+  padding-bottom: 5px;
+}
+#business {
+  padding-bottom: 0px;
+}
+.about-lower-font {
+  font-weight: 300;
+  font-size: large;
 }
