@@ -14,9 +14,15 @@ html, body {
     display: flex;
     flex-wrap: nowrap;
     background-color: #ffffff;
+    width: 100%;
   }
 .about-flex-container > div {
-  padding: 100px 100px 100px 100px;
+  width: 50%;
+  padding-top: 50px;
+  }
+  .about-top-text {
+    padding-left: 100px;
+    padding-bottom: 50px;
   }
 .about-bottom-flex-container {
     display: flex;
@@ -24,7 +30,7 @@ html, body {
   }
   .about-bottom-flex-container > div {
     padding-top: 50px;
-    /*padding: 100px 100px 100px 100px;*/
+    /* padding: 100px 100px 100px 100px; */
     width: 20%;
     }
 .about-details { 
@@ -32,8 +38,9 @@ html, body {
       font-weight:500;
   } 
   .about-top-image { 
-    margin-top: 20px;
-    margin-right: 100px;
+    padding-left: 150px;
+    position: relative;
+    right: -120px;
 }
 #about2 {
   background-color: #ff4747 ;
@@ -44,8 +51,11 @@ html, body {
 .about-lower {
   padding-right: 650px;
 }
+#img {
+  max-width: 200%;
+}
 img {
-  max-width: 150%;
+  max-width: 50%;
   height: auto;
 }
 #about-body {
