@@ -7,7 +7,7 @@
     background-color: #FF4747;
     height: 65px;
     width: 100%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
@@ -15,6 +15,12 @@
     display: flex;
     flex-wrap: nowrap;
 }
+@media screen and (max-height: 700px) {
+    .footer{
+        position: relative;
+    }
+}
+
 .contact {
     color: white;
     font-weight: 500;
