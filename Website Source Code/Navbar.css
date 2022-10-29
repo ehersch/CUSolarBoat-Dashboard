@@ -3,38 +3,38 @@
   :root { font-family: 'Inter var', sans-serif; }
 }
 
-ul.navbar li {
-    float: left;
-    list-style-type: none;
-    padding: 0px 8px;
-}
-
-ul.navbar {
+.navbar {
+    padding: 16px 48px;
+    overflow: hidden;
     float: right;
-    padding: 0px 48px;
-}
-
-.nav {
-    display: block;
-    padding: 8px 16px;
-    color: #000000;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 600;
     transition-duration: 0.4s;
 }
 
-a.bear {
+.navbar a.nav {
+    float: left;
+    display: block;
+    margin: 8px 12px;
+    padding: 8px 16px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 600;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+}
+
+#bear {
     float: left;
     padding: 24px;
 }
 
-.nav.highlight {
+.navbar a.highlight {
     color: #ffffff;
     background-color: #ff6060;
 }
 
-.nav:hover {
+.navbar a.nav:hover {
     background-color: #e4e4e4;
 }
 
@@ -45,4 +45,62 @@ a.bear {
 
 .header {
     margin: 0px;
+}
+
+/*Mobileness*/
+.menu-icon {
+    display: none !important;
+    color: #ff6060;
+}
+
+/*Mobile query*/
+@media screen and (max-width: 800px) {
+    .navbar a.nav {
+        display: none;
+        width: 100%;
+        color: #ffffff;
+        text-align: center;
+        float: none;
+        margin: 0;
+        font-size: 170%;
+        padding: 20px 0;
+        border-radius: 0;
+    }
+
+    .navbar a.highlight {
+        font-weight: 800;
+    }
+
+    .navbar a.nav:hover {
+        background-color: #ff9a9a !important;
+    }
+
+    .menu-icon {
+        float: right !important;
+        display: inline !important;
+    }
+    .navbar.open a.nav {
+        display: block;
+    }
+    .navbar.open {
+        background-color: #ff6060;
+        float: none !important;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar.open .menu-icon {
+        padding: 10px 48px;
+        color: #ffffff;
+        position: absolute;
+        right: 0;
+    }
+
+    .navbar.open #menu-icon {
+        color: #ffffff;
+    }
+    
+    #bear.open {
+        display: none;
+    }
 }

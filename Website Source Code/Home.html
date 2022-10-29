@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head class="header">
+    <head>
         <title>CUSB Home</title>
         <link rel="preconnect" href="https://rsms.me/">
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+        <script src="https://kit.fontawesome.com/5126e62fe7.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="Style.css">
         <link rel="stylesheet" href="Navbar.css">
         <link rel="stylesheet" href="Home.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="Script.js"></script> 
     </head>
 <body class="home-body">
-    <header id = "Nav Bar">
-        <nav>
-            <a href="Home.html" class="bear"><img src="Images/bear.png" alt="CUSB bear logo" width="72px"></img></a>
-            <ul class="navbar">
-                <li><a href="Home.html" class="nav">Home</a></li>
-                <li><a href="About.html" class="nav">About</a></li>
-                <li><a href="Team.html" class="nav">Team</a></li>
-                <li><a href="Sponsor.html" class="nav highlight">Sponsor Us</a></li>
-              </ul>
+    <header class="header">
+        <a href="Home.html" id="bear"><img src="Images/bear.png" alt="CUSB bear logo" width="72px"></img></a>
+        <nav class="navbar" id="navbar">
+            <a href="javascript:void(0);" class="menu-icon" onclick="toggleNavbar()">
+                <i class="fa-solid fa-bars fa-3x" id="menu-icon"></i>
+            </a>
+            <a href="Home.html" class="nav">Home</a>
+            <a href="About.html" class="nav">About</a>
+            <a href="Team.html" class="nav">Team</a>
+            <a href="Sponsor.html" class="nav highlight">Sponsor Us</a>
         </nav>
     </header>
     <main class = "home-container">
