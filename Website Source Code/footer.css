@@ -15,12 +15,6 @@
     display: flex;
     flex-wrap: nowrap;
 }
-@media screen and (max-height: 700px) {
-    .footer{
-        position: relative;
-    }
-}
-
 .contact {
     color: white;
     font-weight: 500;
@@ -30,7 +24,7 @@
     text-align: left;
     position: absolute;
     left: 0;
-    padding: 0px 0px 100px 10px
+    padding: 0px 0px 0px 10px
 }
 .email {
     color: white;
@@ -41,25 +35,23 @@
     text-align: left;
     position: absolute;
     left: 0;
-    padding: 0px 0px 500px 185px
+    padding: 0px 0px 0px 185px
 }
 .linkedin{
     text-align: right;
     position: absolute;
     right: 0;
-    padding: 6px 6px 55px 0px
+    padding: 6px 6px 0px 0px
 }
 .instagram{
     text-align: right;
     position: absolute;
     right: 0;
-    padding: 7px 66px 55px 0px
+    padding: 7px 66px 0px 0px
 }
 .facebook{
     text-align: right;
     position: absolute;
     right: 0;
-    padding: 8px 126px 55px 0px
+    padding: 8px 126px 0px 0px
 }
-
-
