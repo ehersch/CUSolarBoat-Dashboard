@@ -14,7 +14,7 @@ html, body {
     min-height: calc(100vh - 187px); 
   }
   .sponsor-flex-container {
-      padding-top: 0px; 
+      padding-top: 100px; 
       display: flex;
       flex-wrap: nowrap;
       background-color: #ffffff;
@@ -28,7 +28,26 @@ html, body {
     font-weight: 700;
     /* margin-left: calc(5vw); */
     }
-
+    .sponsor-title {
+      text-align: center;
+      position: absolute;
+      padding-left: 68vh;
+    }
+    .sponsor-bottom-text {
+      color:#878787;
+      font-weight: 600;
+      font-size: 18px;
+    }
     .title {
-        text-align: center;
+      text-align: center;
+    }
+    .desc-text {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 20px;
+      font-weight: 500;
+      
+    }
+    .logo {
+      padding-top: 40px;
     }
