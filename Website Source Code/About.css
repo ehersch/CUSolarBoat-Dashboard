@@ -64,10 +64,11 @@ body::-webkit-scrollbar {
 }
 #img {
   max-width: 200%;
+  max-height: auto;
 }
 img {
   max-width: 50%;
-  height: auto;
+  max-height: auto;
 }
 #about-body {
   font-weight: 500;
@@ -75,19 +76,39 @@ img {
   opacity: .85;
 }
 #hull {
-  padding-top: 12px;
+  padding-top: 0px;
   padding-bottom: 0px;
 }
 #sysco {
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 0px;
 }
 #business {
-  padding-top: 7px;
-  padding-bottom: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .about-lower-font {
   font-weight: 400;
   font-size: 20px;
+}
+#sysco-img {
+  height: 25%;
+  width: auto;
+}
+#solar-img {
+  height: 25%;
+  width: auto;
+}
+#drivetrain-img {
+  height: 25%;
+  width: auto;
+}
+#hull-img {
+  height: 25%;
+  width: auto;
+}
+#business-img {
+  height: 25%;
+  width: 70%;
 }
