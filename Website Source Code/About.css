@@ -58,6 +58,7 @@ body::-webkit-scrollbar {
   color:#ffffff;
 }
 .about-lower {
+  font-size: 24px;
   padding-right: 650px;
 }
 #img {
@@ -80,7 +81,8 @@ img {
 #business {
   padding-bottom: 0px;
 }
+
 .about-lower-font {
-  font-weight: 300;
-  font-size: large;
+  font-weight: 400;
+  font-size: 20px;
 }
