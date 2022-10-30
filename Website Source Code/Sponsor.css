@@ -4,16 +4,31 @@
 }
 
 html, body {
-  height: 100%;
-  margin: 0;
-  overscroll-behavior: none;
-}
+    height: auto;
+    margin: 0;
+    overscroll-behavior: none;
+  }
+  .sponsor-container {
+    background-color: #ffffff;
+    padding-top: 0px;
+    min-height: calc(100vh - 207px); 
+  }
+  .sponsor-flex-container {
+      padding-top: 0px; 
+      display: flex;
+      flex-wrap: nowrap;
+      background-color: #ffffff;
+      width: 85%;
+      margin-left: calc(7.5vw);
+    }
+  .sponsor-flex-container > div {
+    width: 50%;
+    padding-top: 0px;
+    text-align: left;
+    font-weight: 700;
+    /* margin-left: calc(5vw); */
+    }
 
-.sponsor-container {
-  padding-top: 65px; 
-  display: flex;
-  flex-wrap: nowrap;
-  width: 100%;
-  background-color: #ffffff;
-  min-height: calc(100vh - 272px);
-}
+    .title {
+        text-align: center;
+    }
