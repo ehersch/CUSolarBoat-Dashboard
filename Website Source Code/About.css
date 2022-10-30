@@ -75,13 +75,16 @@ img {
   opacity: .85;
 }
 #hull {
-  padding-top: 10px;
+  padding-top: 12px;
+  padding-bottom: 0px;
 }
 #sysco {
-  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 #business {
-  padding-bottom: 0px;
+  padding-top: 7px;
+  padding-bottom: 2px;
 }
 
 .about-lower-font {
