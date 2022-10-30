@@ -33,7 +33,21 @@ html, body {
       position: absolute;
       padding-left: 68vh;
     }
-    
+    .sponsor-bottom-text {
+      color:#878787;
+      font-weight: 600;
+      font-size: 18px;
+    }
     .title {
       text-align: center;
+    }
+    .desc-text {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 20px;
+      font-weight: 500;
+      
+    }
+    .logo {
+      padding-top: 40px;
     }
