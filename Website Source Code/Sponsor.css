@@ -11,7 +11,7 @@ html, body {
   .sponsor-container {
     background-color: #ffffff;
     padding-top: 0px;
-    min-height: calc(100vh - 207px); 
+    min-height: calc(100vh - 187px); 
   }
   .sponsor-flex-container {
       padding-top: 0px; 

@@ -5,7 +5,7 @@
 
 .footer-container {
     background-color: white;
-    height: 120px;
+    height: 100px;
     width: 70%;
     position: relative;
     bottom: 0;
@@ -50,7 +50,7 @@
 .email {
     color: #FF4747;
     font-weight: 450;
-    padding: 15px 0px 0px 0px;
+    padding: 11px 0px 0px 0px;
     text-align: center;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .images > div {
-    padding: 15px 0px 0px 0px;
+    padding: 11px 0px 0px 0px;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 0;
