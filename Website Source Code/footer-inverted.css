@@ -76,3 +76,43 @@
     text-align: center;
     width: 20%;
   }
+
+  .facebook-img {
+    background: url(Images/facebook2.png);
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .facebook-img:hover {
+    background: url(Images/facebook3.png);
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .instagram-img {
+    background: url(Images/insta2.png);
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;  }
+
+  .instagram-img:hover {
+    background: url(Images/insta3.png);
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .linkedin-img {
+    background: url(Images/linkedin2.png);
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .linkedin-img:hover {
+    background: url(Images/linkedin3.png);
+    background-size: 35px 35px;
+    width: 35px;
+    height: 35px;  }
