@@ -3,6 +3,84 @@
   :root { font-family: 'Inter var', sans-serif; }
 }
 
+.footer-container {
+    background-color: #FF4747;
+    height: 120px;
+    width: 70%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: calc(15vw);
+    padding: 0px 0px 0px 0px;
+}
+
+.footer {
+    background-color: #FF4747;
+}
+
+.footer-container > div {
+    padding: 0px 0px 0px 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0;
+    text-align: center;
+    width: 50%;
+  }
+
+  .footer-text {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+  }
+
+.bar {
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 1px;
+    width: 50%;
+    margin-left: calc(8.75vw);
+    padding: 0px 0px 0px 0px;
+}
+
+.email {
+    color: #FFFFFF;
+    font-weight: 450;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+}
+
+.images {
+    background-color: #FF4747;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    margin-left: calc(10.25vw);
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px 0px 0px 0px;
+}
+
+.images > div {
+    padding: 15px 0px 0px 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0;
+    text-align: center;
+    width: 20%;
+  }
+
+/* :root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
 .footer {
     background-color: #FF4747;
     height: 65px;
@@ -54,4 +132,4 @@
     position: absolute;
     right: 0;
     padding: 8px 126px 0px 0px
-}
+} */

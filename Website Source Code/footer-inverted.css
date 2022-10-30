@@ -3,7 +3,7 @@
   :root { font-family: 'Inter var', sans-serif; }
 }
 
-.footer {
+.footer-container {
     background-color: white;
     height: 120px;
     width: 70%;
@@ -18,7 +18,11 @@
     padding: 0px 0px 0px 0px;
 }
 
-.footer > div {
+.footer {
+    background-color: #FFFFFF;
+}
+
+.footer-container > div {
     padding: 0px 0px 0px 0px;
     margin-top: 0;
     margin-bottom: 0;
@@ -71,33 +75,3 @@
     text-align: center;
     width: 20%;
   }
-
-/* .email {
-    color: #FF4747;
-    font-weight: 500;
-    font-size: 28;
-    display: flex;
-    flex-wrap: nowrap;
-    text-align: left;
-    position: absolute;
-    left: 0;
-    padding: 0px 0px 0px 185px
-}
-.linkedin{
-    text-align: right;
-    position: absolute;
-    right: 0;
-    padding: 6px 6px 0px 0px
-}
-.instagram{
-    text-align: right;
-    position: absolute;
-    right: 0;
-    padding: 7px 66px 0px 0px
-}
-.facebook{
-    text-align: right;
-    position: absolute;
-    right: 0;
-    padding: 8px 126px 0px 0px
-} */
