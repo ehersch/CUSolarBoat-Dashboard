@@ -15,7 +15,7 @@ html, body {
   flex-wrap: nowrap;
   width: 100%;
   background-color: #ffffff;
-  min-height: calc(100vh - 215px);
+  min-height: calc(100vh - 217px);
 }
 
 .home-container > div {
