@@ -6,6 +6,7 @@
 html, body {
   height: auto;
   margin: 0;
+  overscroll-behavior: none;
 }
 .about-body {
   background-color: #ffffff;
