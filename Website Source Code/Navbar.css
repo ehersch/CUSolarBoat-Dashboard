@@ -26,12 +26,12 @@
 
 #bear {
     float: left;
-    padding: 24px;
+    padding: 8px 0px 0px 24px;
 }
 
 .navbar a.highlight {
     color: #ffffff;
-    background-color: #ff6060;
+    background-color: #ff4747;
 }
 
 .navbar a.nav:hover {
