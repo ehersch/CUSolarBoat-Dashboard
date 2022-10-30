@@ -40,6 +40,7 @@ body::-webkit-scrollbar {
   }
   .about-bottom-flex-container > div {
     padding-top: 50px;
+    padding-bottom: 50px;
     /* padding: 100px 100px 100px 100px; */
     width: 20%;
     }
@@ -58,7 +59,7 @@ body::-webkit-scrollbar {
   color:#ffffff;
 }
 .about-lower {
-  font-size: 24px;
+  font-size: 22px;
   padding-right: 650px;
 }
 #img {
@@ -69,8 +70,9 @@ img {
   height: auto;
 }
 #about-body {
-  font-weight: 400;
+  font-weight: 500;
   padding-right: 30px;
+  opacity: .85;
 }
 #hull {
   padding-top: 10px;
