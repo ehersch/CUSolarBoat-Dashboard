@@ -18,8 +18,18 @@ html, body {
   min-height: calc(100vh - 207px);
 }
 
-.team-text {
+.top {
   text-align: center;
   margin-left: 225px;
   margin-right: 225px;
+}
+
+.board {
+  background-color: white;
+  border: black;
+  width: 80%;
+}
+.Bcard1{
+  text-align: left;
+  line-height: 0px;
 }
