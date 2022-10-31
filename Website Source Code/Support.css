@@ -7,7 +7,15 @@ html, body {
     height: auto;
     margin: 0;
     overscroll-behavior: none;
+    /* overflow: overlay; */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
   .sponsor-container {
     background-color: #ffffff;
     padding-top: 0px;

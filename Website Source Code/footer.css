@@ -65,7 +65,7 @@
     left: 0;
     right: 0;
     margin-bottom: 0;
-    margin-left: calc(10.25vw);
+    margin-left: calc(12vw);
     display: flex;
     flex-wrap: nowrap;
     padding: 0px 0px 0px 0px;
@@ -84,6 +84,26 @@
   .images > div:hover {
     opacity: 1;
 }
+
+  .facebook-img {
+    background: url(Images/facebook.png);
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .instagram-img {
+    background: url(Images/insta.png);
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;  }
+
+  .linkedin-img {
+    background: url(Images/linkedin.png);
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+  }
 
 /* :root { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {

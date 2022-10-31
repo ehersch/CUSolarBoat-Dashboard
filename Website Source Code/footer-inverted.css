@@ -62,7 +62,7 @@
     left: 0;
     right: 0;
     margin-bottom: 0;
-    margin-left: calc(10.25vw);
+    margin-left: calc(12.0vw);
     display: flex;
     flex-wrap: nowrap;
     padding: 0px 0px 0px 0px;
@@ -74,6 +74,7 @@
     margin-bottom: 0;
     line-height: 0;
     text-align: center;
+    align-items: center;
     width: 20%;
   }
 
