@@ -111,65 +111,6 @@ def delete_reading(log_id, reading_index):
     db.session.commit()
     return success_response(reading.serialize())
 
-# @app.route("/api/users/", methods=["POST"])
-# def create_user():
-#     body = json.loads(request.data)
-#     if not body.get("name") or not body.get("netid"):
-#         return failure_response("not all fields were provided!", 400)
-#     new_user = User(name=body.get("name"), netid=body.get("netid"))
-#     db.session.add(new_user)
-#     db.session.commit()
-#     return success_response(new_user.serialize(), 201)
-#
-# @app.route("/api/users/<int:user_id>/")
-# def get_user(user_id):
-#     user = User.query.filter_by(id=user_id).first()
-#     if user is None:
-#         return failure_response("User not found!")
-#     return success_response(user.serialize())
-#
-# @app.route("/api/courses/<int:course_id>/add/", methods=["POST"])
-# def add_user(course_id):
-#     body = json.loads(request.data)
-#     course = Course.query.filter_by(id=course_id).first()
-#     if course is None:
-#         return failure_response("Course not found!")
-#     if not body.get("user_id"):
-#         return failure_response("user not provided!", 400)
-#     if body.get("type") != "student" and body.get("type") != "instructor":
-#         return failure_response("invalid user type", 400)
-#     user = User.query.filter_by(id=body.get("user_id")).first()
-#     if user is None:
-#         return failure_response("User not found!")
-#     for person in course.students:
-#         if person.id == user.id:
-#             return failure_response("already in the class!", 400)
-#     for person in course.instructors:
-#         if person.id == user.id:
-#             return failure_response("already in the class!", 400)
-#     if body.get("type") == "student":
-#         course.students.append(user)
-#     if body.get("type") == "instructor":
-#         course.instructors.append(user)
-#     db.session.commit()
-#     course = Course.query.filter_by(id=course_id).first()
-#     return success_response(course.serialize())
-#
-# @app.route("/api/courses/<int:course_id>/assignment/", methods=["POST"])
-# def add_assignment(course_id):
-#     body = json.loads(request.data)
-#     course = Course.query.filter_by(id=course_id).first()
-#     if course is None:
-#         return failure_response("Course not found!")
-#     if not body.get("title") or not body.get("due_date"):
-#         return failure_response("not all fields filled", 400)
-#     assignment = Assignment(title=body.get("title"), due_date=body.get("due_date"), course_id=course_id)
-#     course = Course.query.filter_by(id=course_id).first()
-#     course.assignments.append(assignment)
-#     db.session.add(assignment)
-#     db.session.commit()
-#     return success_response(assignment.serialize(), 201)
-#
 @app.route("/reset/")
 def reset():
     db.drop_all()
@@ -178,3 +119,6 @@ def reset():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=4000, debug=True)
+
+
+

@@ -22,7 +22,7 @@ html, body {
     min-height: calc(100vh - 187px); 
   }
   .sponsor-flex-container {
-      padding-top: 100px; 
+      padding-top: 70px; 
       display: flex;
       flex-wrap: nowrap;
       background-color: #ffffff;
