@@ -269,3 +269,9 @@ body::-webkit-scrollbar {
   object-position: 45% 55%;
   padding-left: 0px;
 }
+
+/* @media (max-width: 1000px) {
+  .team-container {
+    background-color: black;
+  }
+} */
