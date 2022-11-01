@@ -4,106 +4,111 @@
 }
 
 .footer-container {
-    background-color: #FF4747;
-    height: 100px;
-    width: 70%;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-bottom: 0;
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: calc(15vw);
-    padding: 0px 0px 0px 0px;
+  background-color: #FF4747;
+  height: 100px;
+  width: 70%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: calc(15vw);
+  padding: 0px 0px 0px 0px;
 }
 
 .footer {
-    background-color: #FF4747;
+  background-color: #FF4747;
 }
 
 .footer-container > div {
-    padding: 0px 0px 0px 0px;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 0;
-    text-align: center;
-    opacity: 1;
-    width: 50%;
-  }
+  padding: 0px 0px 0px 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0;
+  text-align: center;
+  opacity: 1;
+  width: 50%;
+}
 
-  .footer-text {
-    color: #FFFFFF;
-    font-weight: 700;
-    text-align: center;
-    padding: 5px 0px 0px 0px;
-    opacity: .85
-  }
+.footer-text {
+  color: #FFFFFF;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px 0px 0px 0px;
+  opacity: .85;
+  font-size:18px
+}
 
 .bar {
-    background-color: #FFFFFF;
-    text-align: center;
-    height: 1px;
-    width: 50%;
-    margin-left: calc(8.75vw);
-    padding: 0px 0px 0px 0px;
-    opacity: .85
+  background-color: #FFFFFF;
+  text-align: center;
+  height: 1px;
+  width: 50%;
+  margin-left: calc(8.75vw);
+  padding: 0px 0px 0px 0px;
+  opacity: .85;
 }
 
 .email {
-    color: #FFFFFF;
-    font-weight: 450;
-    padding: 11px 0px 0px 0px;
-    text-align: center;
-    opacity: .85
+  color: #FFFFFF;
+  font-weight: 450;
+  padding: 11px 0px 0px 0px;
+  text-align: center;
+  opacity: .85
+}
+
+.email p {
+  font-size:15px
 }
 
 .images {
-    background-color: #FF4747;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-bottom: 0;
-    margin-left: calc(12vw);
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 0px 0px 0px 0px;
+  background-color: #FF4747;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  margin-left: calc(12vw);
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0px 0px 0px 0px;
 }
 
 .images > div {
-    padding: 11px 0px 0px 0px;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 0;
-    text-align: center;
-    width: 20%;
-    opacity: .85;
-  }
-
-  .images > div:hover {
-    opacity: 1;
+  padding: 11px 0px 0px 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0;
+  text-align: center;
+  width: 20%;
+  opacity: .85;
 }
 
-  .facebook-img {
-    background: url(Images/facebook.png);
-    background-size: 36px 36px;
-    width: 36px;
-    height: 36px;
-  }
+.images > div:hover {
+  opacity: 1;
+}
 
-  .instagram-img {
-    background: url(Images/insta.png);
-    background-size: 36px 36px;
-    width: 36px;
-    height: 36px;  }
+.facebook-img {
+  background: url(Images/facebook.png);
+  background-size: 36px 36px;
+  width: 36px;
+  height: 36px;
+}
 
-  .linkedin-img {
-    background: url(Images/linkedin.png);
-    background-size: 36px 36px;
-    width: 36px;
-    height: 36px;
-  }
+.instagram-img {
+  background: url(Images/insta.png);
+  background-size: 36px 36px;
+  width: 36px;
+  height: 36px;  }
+
+.linkedin-img {
+  background: url(Images/linkedin.png);
+  background-size: 36px 36px;
+  width: 36px;
+  height: 36px;
+}
 
 /* :root { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {

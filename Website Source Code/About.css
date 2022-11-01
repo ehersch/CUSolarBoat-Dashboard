@@ -11,6 +11,7 @@ html, body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .about-body {
   background-color: #ffffff;
   min-height: calc(100vh - 207px); 
@@ -23,66 +24,127 @@ body::-webkit-scrollbar {
 .about-flex-container {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: space-around;
     background-color: #ffffff;
     width: 100%;
-  }
+}
+
 .about-flex-container > div {
-  width: 50%;
+  max-width: 700px;
   padding-top: 50px;
-  }
-  .about-top-text {
-    padding-left: 100px;
-    padding-bottom: 50px;
-  }
+}
+
+.about-top-text {
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
 .about-bottom-flex-container {
     display: flex;
-    flex-wrap: nowrap;
-  }
-  .about-bottom-flex-container > div {
-    padding-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
     padding-bottom: 50px;
-    /* padding: 100px 100px 100px 100px; */
-    width: 20%;
-    }
+}
+
+.about-bottom-flex-container div {
+  padding-top: 50px;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  min-width: 50px;
+  max-width: 250px;
+  display: block;
+  width: auto;
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.about-bottom-flex-container h1 {
+  text-align: center;
+}
+
+.about-bottom-flex-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about-details { 
       color: #989898; 
-      font-weight:500;
-  } 
-  .about-top-image { 
-    padding-left: 270px;
-    position: relative;
+      font-weight: 500;
 }
+
+.about-top-image {
+  margin: auto;
+  padding: 50px;
+  float: right;
+  min-width: 300px;
+}
+
+.about-top-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  max-width: 250px;
+}
+
 #about2 {
   background-color: #ff4747 ;
   height: 100%;
   padding: 50px 100px 0px 100px;
   color:#ffffff;
 }
+
+@media screen and (max-width: 1320px) {
+  .about-bottom-flex-container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .about-bottom-flex-container {
+    padding-right: 140px;
+    padding-left: 140px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #about2, .about-top-text {
+    padding: 25px 50px 50px 50px;
+  }
+  .about-top-image {
+    display: none;
+  }
+}
+
 .about-lower {
   font-size: 22px;
-  padding-right: 650px;
+  max-width: 700px;
 }
+
 #img {
   max-width: 200%;
   max-height: auto;
 }
-img {
-  max-width: 50%;
-  max-height: auto;
-}
+
 #about-body {
   font-weight: 500;
-  padding-right: 30px;
   opacity: .85;
+  text-align: center;
 }
+
 #hull {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
 #sysco {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
 #business {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -92,23 +154,38 @@ img {
   font-weight: 400;
   font-size: 20px;
 }
+
 #sysco-img {
   height: 25%;
   width: auto;
+  max-width: 250px;
+  max-height: 100px;
 }
+
 #solar-img {
   height: 25%;
   width: auto;
+  max-width: 250px;
+  max-height: 100px;
 }
+
 #drivetrain-img {
   height: 25%;
   width: auto;
+  max-width: 250px;
+  max-height: 100px;
 }
+
 #hull-img {
   height: 25%;
   width: auto;
+  max-width: 250px;
+  max-height: 100px;
 }
+
 #business-img {
   height: 25%;
-  width: 70%;
+  width: auto;
+  max-width: 250px;
+  max-height: 100px;
 }

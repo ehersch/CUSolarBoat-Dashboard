@@ -50,7 +50,11 @@
 /*Mobileness*/
 .menu-icon {
     display: none !important;
+    transition-duration: 0.4s;
     color: #ff6060;
+}
+.menu-icon:hover {
+    color: #ff1313;
 }
 
 /*Mobile query*/
