@@ -27,6 +27,7 @@ body::-webkit-scrollbar {
 
 .top {
   text-align: center;
+  font-weight: 700;
   margin-left: 225px;
   margin-right: 225px;
 }
@@ -235,6 +236,1010 @@ body::-webkit-scrollbar {
   font-weight: 600;
 }
 .Bimage7{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 0% 15%;
+  padding-left: 0px;
+}
+
+/* First row under solar */
+.solar1 {
+  background-color: white;
+  border: black;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Scard1{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+}
+.Sinfo1{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Sname1{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Simage1{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Scard2{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Sinfo2{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Sname2{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Simage2{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Scard3{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Sinfo3{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Sname3{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Simage3{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Scard4{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Sinfo4{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Sname4{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Simage4{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+/* Second row under solar */
+.solar2 {
+  background-color: white;
+  border: black;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Scard5{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+}
+.Sinfo5{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Sname5{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Simage5{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Scard6{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Sinfo6{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Sname6{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Simage6{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Scard7{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Sinfo7{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Sname7{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Simage7{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+/* First row under hull*/
+.hull1 {
+  background-color: white;
+  border: black;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Hcard1{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+}
+.Hinfo1{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Hname1{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Himage1{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Hcard2{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Hinfo2{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Hname2{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Himage2{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Hcard3{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Hinfo3{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Hname3{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Himage3{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Hcard4{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Hinfo4{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Hname4{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Himage4{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+/* Second row under hull */
+.hull2 {
+  background-color: white;
+  border: black;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Hcard5{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+}
+.Hinfo5{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Hname5{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Himage5{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Hcard6{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Hinfo6{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Hname6{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Himage6{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Hcard7{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Hinfo7{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Hname7{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Himage7{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+/* First row under drivetrain*/
+.drivetrain1 {
+  background-color: white;
+  border: black;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Dcard1{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+}
+.Dinfo1{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Dname1{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Dimage1{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Dcard2{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Dinfo2{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Dname2{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Dimage2{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Dcard3{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Dinfo3{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Dname3{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Dimage3{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Dcard4{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Dinfo4{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Dname4{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Dimage4{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+/* Second row under drivetrain */
+.drivetrain2 {
+  background-color: white;
+  border: black;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Dcard5{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+}
+.Dinfo5{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Dname5{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Dimage5{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Dcard6{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Dinfo6{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Dname6{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Dimage6{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+/* First row under sysco*/
+.systems1 {
+  background-color: white;
+  border: black;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Ccard1{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+}
+.Cinfo1{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Cname1{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Cimage1{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Ccard2{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Cinfo2{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Cname2{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Cimage2{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Ccard3{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Cinfo3{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Cname3{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Cimage3{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Ccard4{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Cinfo4{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Cname4{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Cimage4{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+/* Second row under sysco */
+.systems2 {
+  background-color: white;
+  border: black;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Ccard5{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+}
+.Cinfo5{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Cname5{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Cimage5{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Ccard6{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Cinfo6{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Cname6{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Cimage6{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+/* First row under business*/
+.business1 {
+  background-color: white;
+  border: black;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Ucard1{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+}
+.Uinfo1{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Uname1{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Uimage1{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Ucard2{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Uinfo2{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Uname2{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Uimage2{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Ucard3{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Uinfo3{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Uname3{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Uimage3{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Ucard4{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Uinfo4{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Uname4{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Uimage4{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+/* Second row under business */
+.business2 {
+  background-color: white;
+  border: black;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Ucard5{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+}
+.Uinfo5{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Uname5{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Uimage5{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Ucard6{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Uinfo6{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Uname6{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Uimage6{
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
+
+.Ucard7{
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
+.Uinfo7{
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.Uname7{
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+.Uimage7{
   height: 250px;
   overflow: hidden;
   object-fit: cover;
