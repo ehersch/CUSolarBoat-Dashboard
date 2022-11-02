@@ -1,89 +1,101 @@
-:root { font-family: 'Inter', sans-serif; }
+:root { font-family: 'Inter', sans-serif; --foreground: #fff; --background: #FF4747; }
 @supports (font-variation-settings: normal) {
   :root { font-family: 'Inter var', sans-serif; }
 }
 
 .footer-container {
-  background-color: #FF4747;
-  height: 100px;
-  width: 70%;
+  background-color: var(--background);
+  width: 100%;
   position: relative;
   bottom: 0;
   left: 0;
   right: 0;
   margin-bottom: 0;
   display: flex;
-  flex-wrap: nowrap;
-  margin-left: calc(15vw);
-  padding: 0px 0px 0px 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px 0px 0px 0px;
 }
 
 .footer {
-  background-color: #FF4747;
+  background-color: var(--background);
 }
 
 .footer-container > div {
   padding: 0px 0px 0px 0px;
   margin-top: 0;
-  margin-bottom: 0;
+  padding-bottom: 30px;
   line-height: 0;
   text-align: center;
   opacity: 1;
-  width: 50%;
+  max-width: 350px;
+  min-width: 350px !important;
+}
+
+@media screen and (max-width: 800px) {
+  .footer-container > div {
+    display: block;
+  }
 }
 
 .footer-text {
-  color: #FFFFFF;
+  color: var(--foreground);
   font-weight: 700;
   text-align: center;
-  padding: 5px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   opacity: .85;
-  font-size:18px
+  font-size: 18px;
 }
 
 .bar {
-  background-color: #FFFFFF;
+  background-color: var(--foreground);
   text-align: center;
   height: 1px;
-  width: 50%;
-  margin-left: calc(8.75vw);
   padding: 0px 0px 0px 0px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
   opacity: .85;
 }
 
 .email {
-  color: #FFFFFF;
+  color: var(--foreground);
   font-weight: 450;
-  padding: 11px 0px 0px 0px;
+  padding: 24px 0px 0px 0px;
   text-align: center;
   opacity: .85
 }
 
-.email p {
-  font-size:15px
+.email a {
+  font-size: 15px;
+  text-decoration: none;
+  color: var(--foreground);
 }
 
 .images {
-  background-color: #FF4747;
+  background-color: var(--background);
   position: relative;
   bottom: 0;
   left: 0;
   right: 0;
   margin-bottom: 0;
-  margin-left: calc(12vw);
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-wrap: nowrap;
+  justify-content: center;
   padding: 0px 0px 0px 0px;
 }
 
 .images > div {
-  padding: 11px 0px 0px 0px;
+  padding: 11px 10px 0px 10px;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 0;
   text-align: center;
-  width: 20%;
   opacity: .85;
+  transition-duration: 0.4s;
 }
 
 .images > div:hover {
@@ -92,78 +104,24 @@
 
 .facebook-img {
   background: url(Images/facebook.png);
-  background-size: 36px 36px;
-  width: 36px;
-  height: 36px;
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  animation-duration: 0.3s;
 }
 
 .instagram-img {
   background: url(Images/insta.png);
-  background-size: 36px 36px;
-  width: 36px;
-  height: 36px;  }
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  animation-duration: 0.3s;
+}
 
 .linkedin-img {
   background: url(Images/linkedin.png);
-  background-size: 36px 36px;
-  width: 36px;
-  height: 36px;
+  background-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  animation-duration: 0.3s;
 }
-
-/* :root { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
-}
-
-.footer {
-    background-color: #FF4747;
-    height: 65px;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-bottom: 0;
-    display: flex;
-    flex-wrap: nowrap;
-}
-.contact {
-    color: white;
-    font-weight: 500;
-    font-size: 28;
-    display: flex;
-    flex-wrap: nowrap;
-    text-align: left;
-    position: absolute;
-    left: 0;
-    padding: 0px 0px 0px 10px
-}
-.email {
-    color: white;
-    font-weight: 500;
-    font-size: 28;
-    display: flex;
-    flex-wrap: nowrap;
-    text-align: left;
-    position: absolute;
-    left: 0;
-    padding: 0px 0px 0px 185px
-}
-.linkedin{
-    text-align: right;
-    position: absolute;
-    right: 0;
-    padding: 6px 6px 0px 0px
-}
-.instagram{
-    text-align: right;
-    position: absolute;
-    right: 0;
-    padding: 7px 66px 0px 0px
-}
-.facebook{
-    text-align: right;
-    position: absolute;
-    right: 0;
-    padding: 8px 126px 0px 0px
-} */
