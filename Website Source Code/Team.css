@@ -423,7 +423,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 55%;
+  object-position: 75% 50%;
   padding-left: 0px;
 }
 
@@ -699,8 +699,8 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 55%;
-  padding-left: 0px;
+  object-position: 0 55%;
+  padding-right: 0px;
 }
 
 .Dcard2{
@@ -727,7 +727,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 55%;
+  object-position: 100% 20%;
   padding-left: 0px;
 }
 
@@ -847,7 +847,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 55%;
+  object-position: 80% 55%;
   padding-left: 0px;
 }
 
@@ -1031,7 +1031,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 55%;
+  object-position: 0% 55%;
   padding-left: 0px;
 }
 
@@ -1067,7 +1067,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 55%;
+  object-position: 0% 15%;
   padding-left: 0px;
 }
 
