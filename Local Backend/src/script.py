@@ -40,8 +40,6 @@ def hello():
         "Hello World"
     )
 
-print("I am here")
-
 #get all logs route
 @app.route("/all-logs")
 def get_all_logs():
@@ -188,21 +186,13 @@ def reset():
 @app.route("/collect/")
 def collect():
     #s = Serial(port='/dev/cu.usbmodem11101', baudrate=9600)
-    print("1.1")
     s = Serial(port='COM4', baudrate=9600, timeout=.1)
-    print("1.2")
     s.flushInput()
-    print("1.3")
     # Serial.close(s)
-    print("1.4")
     new_log = Logs(time= str(datetime.now()))
-    print("1.5")
     db.session.add(new_log)
-    print("1.6")
     db.session.commit()
-    print("1.7")
     parent_log = Logs.query.filter_by(id=db.session.query(func.max(Logs.id))).first()
-    print("1.8")
 
     # client = MongoClient("mongodb+srv://CUSolarBoat:Cu2uiQrlwlfZG2gJ@cluster0.lkpux.mongodb.net/test",tls=True, tlsAllowInvalidCertificates=True)
     # db=client.DB
@@ -214,7 +204,6 @@ def collect():
     # timeIndex = 0
     #         # Issue the serverStatus command and print the results
     # serverStatusResult=db.command("serverStatus")
-    print("I am here 2")
     time.sleep(1)
     while True:
         try:
