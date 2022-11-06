@@ -16,9 +16,9 @@ body::-webkit-scrollbar {
 }
 
 .home-container {
-  min-height: 80vh;
+  min-height: 75vh;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -30,18 +30,23 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 1200px) {
+  .home-container {
+    flex-wrap: wrap;
+  }
   .home-container > div {
     padding: 0 40px 0 40px;
+    /* flex-wrap: wrap; */
   }
   .home-image > img {
     width: 70vw !important;
+    flex: 1 1 auto;
   }
 }
 
 .home-text {
   margin-top: 0px;
   margin-right: 0px;
-  max-width: 700px;
+  max-width: 500px;
 }
 
 .home-header {
@@ -53,15 +58,15 @@ body::-webkit-scrollbar {
 }
 
 .home-image {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-right: 80px;
   margin-left: 80px;
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
   text-align: center;
 }
 
 .home-image > img {
-  width: 30vw;
+  width: 40vw;
   max-width: 500px;
   margin-right: auto;
   margin-left: auto;
