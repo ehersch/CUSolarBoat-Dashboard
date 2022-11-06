@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
 }
 
 .home-container {
-  min-height: 75vh;
+  min-height: calc(100vh - 197px);
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
