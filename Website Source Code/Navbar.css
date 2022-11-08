@@ -58,7 +58,7 @@
 }
 
 /*Mobile query*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .navbar a.nav {
         display: none;
         width: 100%;
@@ -82,9 +82,11 @@
     .menu-icon {
         float: right !important;
         display: inline !important;
+        font-size: 300%;
     }
     .navbar.open a.nav {
         display: block;
+        font-size: 300%;
     }
     .navbar.open {
         background-color: #ff6060;
