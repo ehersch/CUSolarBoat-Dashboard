@@ -14,6 +14,7 @@ html, body {
 
 .about-body {
   background-color: #ffffff;
+  background-color: #ff4747;
   min-height: calc(100vh - 207px); 
 }
 
