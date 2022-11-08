@@ -883,7 +883,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 55%;
+  object-position: 45% 90%;
   padding-left: 0px;
 }
 
@@ -967,7 +967,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 55%;
+  object-position: 45% 45%;
   padding-left: 0px;
 }
 
@@ -1031,7 +1031,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 0% 55%;
+  object-position: 0% 45%;
   padding-left: 0px;
 }
 
