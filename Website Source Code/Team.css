@@ -423,7 +423,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 75% 50%;
+  object-position: 75% 75%;
   padding-left: 0px;
 }
 
@@ -451,7 +451,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 55%;
+  object-position: 75% 25%;
   padding-left: 0px;
 }
 
@@ -607,7 +607,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 55%;
+  object-position: 45% 0;
   padding-left: 0px;
 }
 
@@ -635,7 +635,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 0;
+  object-position: 45% 80%;
   padding-left: 0px;
 }
 
@@ -883,7 +883,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 55%;
+  object-position: 45% 90%;
   padding-left: 0px;
 }
 
@@ -967,7 +967,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 45% 55%;
+  object-position: 45% 45%;
   padding-left: 0px;
 }
 
@@ -1031,7 +1031,7 @@ body::-webkit-scrollbar {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
-  object-position: 0% 55%;
+  object-position: 0% 45%;
   padding-left: 0px;
 }
 
