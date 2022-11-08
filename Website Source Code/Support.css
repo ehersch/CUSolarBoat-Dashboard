@@ -15,6 +15,10 @@ html, body {
   body::-webkit-scrollbar {
     display: none;
   }
+  #logo {
+    width: 447.333px;
+    height: 209.33px;
+  }
 
   .sponsor-container {
     background-color: #ffffff;
@@ -39,7 +43,7 @@ html, body {
     .sponsor-title {
       text-align: center;
       position: absolute;
-      padding-left: 68vh;
+      margin-left: 35vw;
     }
     .sponsor-bottom-text {
       color:#878787;
@@ -59,3 +63,13 @@ html, body {
     .logo {
       padding-top: 40px;
     }
+
+  @media (max-width: 1000px) {
+  .sponsor-title {
+    margin-left: 31vw;
+  }
+  #logo {
+    max-width: 40vw;
+    max-height: auto;
+  }
+} 
