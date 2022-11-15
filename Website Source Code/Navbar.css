@@ -27,8 +27,27 @@
 #bear {
     float: left;
     padding: 8px 0px 0px 24px;
-}
 
+}
+#bear > img {
+    max-width: 72px;
+  }
+  
+@media screen and (max-width: 1200px) {
+    #bear > img {
+        max-width: none;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+      #bear {
+        width: 175px;
+        height: 8.75vh;
+        position: relative;
+      }
+}
 .navbar a.highlight {
     color: #ffffff;
     background-color: #ff4747;

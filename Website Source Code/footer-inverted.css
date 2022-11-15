@@ -33,10 +33,14 @@
   min-width: 350px !important;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .footer-container > div {
     display: block;
-  }
+    max-width: fit-content;
+    min-width: fit-content;
+    margin-right: 25%;
+    font-size: 300% !important;
+    margin-left: 25%;  }
 }
 
 .footer-text {
