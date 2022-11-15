@@ -4,7 +4,7 @@
 }
 
 html, body {
-  min-height: 100vh;
+  min-height: calc(100vh - 197px);
   margin: 0;
   overscroll-behavior: none;
   -ms-overflow-style: none;
@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
 }
 
 .home-container {
-  min-height: 100vh;
+  min-height: calc(100vh - 197px); 
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -73,6 +73,7 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body {
+    min-height: 100vh;
     min-height: auto !important;
   }
   header {
