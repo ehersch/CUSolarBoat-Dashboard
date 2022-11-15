@@ -58,7 +58,7 @@
 }
 
 /*Mobile query*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .navbar a.nav {
         display: none;
         width: 100%;
