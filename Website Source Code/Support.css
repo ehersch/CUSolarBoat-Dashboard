@@ -28,7 +28,7 @@ html, body {
   .sponsor-flex-container {
       padding-top: 70px; 
       display: flex;
-      flex-wrap: nowrap;
+      /* flex-wrap: nowrap; */
       background-color: #ffffff;
       width: 85%;
       margin-left: calc(7.5vw);
@@ -52,6 +52,7 @@ html, body {
     }
     .title {
       text-align: center;
+      padding-top: 10px;
     }
     .desc-text {
       padding-top: 20px;
@@ -65,11 +66,26 @@ html, body {
     }
 
   @media (max-width: 1000px) {
+    .sponsor-flex-container {
+      flex-wrap: wrap;
+      align-items: flex-start !important;
+      align-content: flex-start !important;
+    }
+    .sponsor-flex-container > div {
+      width: 100%;
+      text-align: center;
+    }
+    
   .sponsor-title {
-    margin-left: 31vw;
+    margin-left: 50vw;
+    text-align: center;
+    margin-right: 50vw;
+    display: none;
   }
   #logo {
     max-width: 40vw;
     max-height: auto;
+    height: auto;
+    width: auto;
   }
 } 
