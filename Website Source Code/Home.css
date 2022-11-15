@@ -41,7 +41,8 @@ body::-webkit-scrollbar {
     padding: 0;
     margin: 0;
     background-color: #fff;
-    min-height: auto !important;
+    /* min-height: auto !important; */
+    min-height: calc(100vh - 297px);
   }
   .home-container > div {
     padding: 250px 80px 0 80px;
@@ -73,8 +74,8 @@ body::-webkit-scrollbar {
     position: relative;
   }
   body {
-    min-height: 100vh;
-    min-height: auto !important;
+    min-height: calc(100vh - 297px);
+    /* min-height: auto !important; */
   }
   header {
     background-color: #fff !important;
