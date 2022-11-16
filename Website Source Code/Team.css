@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
 .team-container {
   padding-top: 0px; 
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   width: 100%;
   background-color: #ffffff;
   min-height: calc(100vh - 187px);
