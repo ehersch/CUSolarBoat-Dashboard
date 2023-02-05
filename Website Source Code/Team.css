@@ -1,13 +1,18 @@
-:root { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
+:root {
+  font-family: 'Inter', sans-serif;
 }
 
-html, body {
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+html,
+body {
   height: 100%;
   margin: 0;
   overscroll-behavior: none;
-  /* overflow: overlay; */
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -17,9 +22,7 @@ body::-webkit-scrollbar {
 }
 
 .team-container {
-  padding-top: 0px; 
-  display: flex;
-  flex-wrap: wrap;
+  padding-top: 0px;
   width: 100%;
   background-color: #ffffff;
   min-height: calc(100vh - 187px);
@@ -31,35 +34,77 @@ body::-webkit-scrollbar {
   margin-left: 225px;
   margin-right: 225px;
 }
+
 /* First row under board */
 .board1 {
   background-color: white;
   border: black;
-  width: 80%;
+  /* width: 100%; */
+  min-width: fit-content;
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.Bcard1{
+
+.Bcard1 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
+  margin-left: 50px;
+  margin-right: 50px;
   height: 330px;
   overflow: hidden;
+  flex-wrap: wrap;
 }
-.Binfo1{
+
+.Binfo1 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Bname1{
+
+.Bname1 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Bimage1{
+
+.Bimage1 {
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  background-size: cover;
+}
+
+.Bcard2 {
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 250px;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-wrap: wrap;
+}
+
+.Binfo2 {
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.Bname2 {
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+
+.Bimage2 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -67,55 +112,32 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Bcard2{
+.Bcard3 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
-}
-.Binfo2{
-  color: #FF4747;
-  padding-left: 10px;
-  font-weight: 500;
-}
-.Bname2{
-  padding: 2px 0px 3px 10px;
-  font-weight: 600;
-}
-.Bimage2{
-  height: 250px;
-  overflow: hidden;
-  object-fit: cover;
-  object-position: 45% 55%;
-  padding-left: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-wrap: wrap;
 }
 
-.Bcard3{
-  color: #BC3434;
-  text-align: left;
-  line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 20%;
-  height: 330px;
-  overflow: hidden;
-  margin-left: 80px;
-}
-.Binfo3{
+.Binfo3 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Bname3{
+
+.Bname3 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Bimage3{
+
+.Bimage3 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -123,27 +145,32 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Bcard4{
+.Bcard4 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-wrap: wrap;
 }
-.Binfo4{
+
+.Binfo4 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Bname4{
+
+.Bname4 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Bimage4{
+
+.Bimage4 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -160,26 +187,30 @@ body::-webkit-scrollbar {
   margin-left: 10%;
   margin-right: 10%;
 }
-.Bcard5{
+
+.Bcard5 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
 }
-.Binfo5{
+
+.Binfo5 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Bname5{
+
+.Bname5 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Bimage5{
+
+.Bimage5 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -187,27 +218,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Bcard6{
+.Bcard6 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Binfo6{
+
+.Binfo6 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Bname6{
+
+.Bname6 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Bimage6{
+
+.Bimage6 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -215,27 +249,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Bcard7{
+.Bcard7 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Binfo7{
+
+.Binfo7 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Bname7{
+
+.Bname7 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Bimage7{
+
+.Bimage7 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -252,26 +289,30 @@ body::-webkit-scrollbar {
   margin-left: 10%;
   margin-right: 10%;
 }
-.Scard1{
+
+.Scard1 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
 }
-.Sinfo1{
+
+.Sinfo1 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Sname1{
+
+.Sname1 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Simage1{
+
+.Simage1 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -279,27 +320,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Scard2{
+.Scard2 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Sinfo2{
+
+.Sinfo2 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Sname2{
+
+.Sname2 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Simage2{
+
+.Simage2 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -307,27 +351,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Scard3{
+.Scard3 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Sinfo3{
+
+.Sinfo3 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Sname3{
+
+.Sname3 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Simage3{
+
+.Simage3 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -335,27 +382,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Scard4{
+.Scard4 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Sinfo4{
+
+.Sinfo4 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Sname4{
+
+.Sname4 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Simage4{
+
+.Simage4 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -372,26 +422,30 @@ body::-webkit-scrollbar {
   margin-left: 10%;
   margin-right: 10%;
 }
-.Scard5{
+
+.Scard5 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
 }
-.Sinfo5{
+
+.Sinfo5 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Sname5{
+
+.Sname5 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Simage5{
+
+.Simage5 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -399,27 +453,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Scard6{
+.Scard6 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Sinfo6{
+
+.Sinfo6 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Sname6{
+
+.Sname6 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Simage6{
+
+.Simage6 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -427,27 +484,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Scard7{
+.Scard7 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Sinfo7{
+
+.Sinfo7 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Sname7{
+
+.Sname7 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Simage7{
+
+.Simage7 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -464,26 +524,30 @@ body::-webkit-scrollbar {
   margin-left: 10%;
   margin-right: 10%;
 }
-.Hcard1{
+
+.Hcard1 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
 }
-.Hinfo1{
+
+.Hinfo1 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Hname1{
+
+.Hname1 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Himage1{
+
+.Himage1 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -491,27 +555,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Hcard2{
+.Hcard2 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Hinfo2{
+
+.Hinfo2 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Hname2{
+
+.Hname2 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Himage2{
+
+.Himage2 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -519,27 +586,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Hcard3{
+.Hcard3 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Hinfo3{
+
+.Hinfo3 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Hname3{
+
+.Hname3 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Himage3{
+
+.Himage3 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -547,27 +617,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Hcard4{
+.Hcard4 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Hinfo4{
+
+.Hinfo4 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Hname4{
+
+.Hname4 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Himage4{
+
+.Himage4 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -584,26 +657,30 @@ body::-webkit-scrollbar {
   margin-left: 10%;
   margin-right: 10%;
 }
-.Hcard5{
+
+.Hcard5 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
 }
-.Hinfo5{
+
+.Hinfo5 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Hname5{
+
+.Hname5 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Himage5{
+
+.Himage5 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -611,27 +688,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Hcard6{
+.Hcard6 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Hinfo6{
+
+.Hinfo6 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Hname6{
+
+.Hname6 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Himage6{
+
+.Himage6 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -639,27 +719,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Hcard7{
+.Hcard7 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Hinfo7{
+
+.Hinfo7 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Hname7{
+
+.Hname7 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Himage7{
+
+.Himage7 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -676,26 +759,30 @@ body::-webkit-scrollbar {
   margin-left: 10%;
   margin-right: 10%;
 }
-.Dcard1{
+
+.Dcard1 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
 }
-.Dinfo1{
+
+.Dinfo1 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Dname1{
+
+.Dname1 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Dimage1{
+
+.Dimage1 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -703,27 +790,30 @@ body::-webkit-scrollbar {
   padding-right: 0px;
 }
 
-.Dcard2{
+.Dcard2 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Dinfo2{
+
+.Dinfo2 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Dname2{
+
+.Dname2 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Dimage2{
+
+.Dimage2 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -731,27 +821,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Dcard3{
+.Dcard3 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Dinfo3{
+
+.Dinfo3 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Dname3{
+
+.Dname3 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Dimage3{
+
+.Dimage3 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -759,27 +852,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Dcard4{
+.Dcard4 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Dinfo4{
+
+.Dinfo4 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Dname4{
+
+.Dname4 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Dimage4{
+
+.Dimage4 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -796,26 +892,30 @@ body::-webkit-scrollbar {
   margin-left: 10%;
   margin-right: 10%;
 }
-.Dcard5{
+
+.Dcard5 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
 }
-.Dinfo5{
+
+.Dinfo5 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Dname5{
+
+.Dname5 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Dimage5{
+
+.Dimage5 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -823,27 +923,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Dcard6{
+.Dcard6 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Dinfo6{
+
+.Dinfo6 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Dname6{
+
+.Dname6 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Dimage6{
+
+.Dimage6 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -860,26 +963,30 @@ body::-webkit-scrollbar {
   margin-left: 10%;
   margin-right: 10%;
 }
-.Ccard1{
+
+.Ccard1 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
 }
-.Cinfo1{
+
+.Cinfo1 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Cname1{
+
+.Cname1 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Cimage1{
+
+.Cimage1 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -887,27 +994,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Ccard2{
+.Ccard2 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Cinfo2{
+
+.Cinfo2 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Cname2{
+
+.Cname2 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Cimage2{
+
+.Cimage2 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -915,27 +1025,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Ccard3{
+.Ccard3 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Cinfo3{
+
+.Cinfo3 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Cname3{
+
+.Cname3 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Cimage3{
+
+.Cimage3 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -943,27 +1056,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Ccard4{
+.Ccard4 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Cinfo4{
+
+.Cinfo4 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Cname4{
+
+.Cname4 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Cimage4{
+
+.Cimage4 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -980,26 +1096,30 @@ body::-webkit-scrollbar {
   margin-left: 10%;
   margin-right: 10%;
 }
-.Ccard5{
+
+.Ccard5 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
 }
-.Cinfo5{
+
+.Cinfo5 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Cname5{
+
+.Cname5 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Cimage5{
+
+.Cimage5 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -1007,27 +1127,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Ccard6{
+.Ccard6 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Cinfo6{
+
+.Cinfo6 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Cname6{
+
+.Cname6 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Cimage6{
+
+.Cimage6 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -1044,26 +1167,30 @@ body::-webkit-scrollbar {
   margin-left: 10%;
   margin-right: 10%;
 }
-.Ucard1{
+
+.Ucard1 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
 }
-.Uinfo1{
+
+.Uinfo1 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Uname1{
+
+.Uname1 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Uimage1{
+
+.Uimage1 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -1071,27 +1198,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Ucard2{
+.Ucard2 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Uinfo2{
+
+.Uinfo2 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Uname2{
+
+.Uname2 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Uimage2{
+
+.Uimage2 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -1099,27 +1229,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Ucard3{
+.Ucard3 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Uinfo3{
+
+.Uinfo3 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Uname3{
+
+.Uname3 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Uimage3{
+
+.Uimage3 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -1127,27 +1260,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Ucard4{
+.Ucard4 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Uinfo4{
+
+.Uinfo4 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Uname4{
+
+.Uname4 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Uimage4{
+
+.Uimage4 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -1164,26 +1300,30 @@ body::-webkit-scrollbar {
   margin-left: 10%;
   margin-right: 10%;
 }
-.Ucard5{
+
+.Ucard5 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
 }
-.Uinfo5{
+
+.Uinfo5 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Uname5{
+
+.Uname5 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Uimage5{
+
+.Uimage5 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -1191,55 +1331,30 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-.Ucard6{
+.Ucard6 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 20%;
-  height: 330px;
-  overflow: hidden;
-  margin-left: 80px;
-}
-.Uinfo6{
-  color: #FF4747;
-  padding-left: 10px;
-  font-weight: 500;
-}
-.Uname6{
-  padding: 2px 0px 3px 10px;
-  font-weight: 600;
-}
-.Uimage6{
-  height: 250px;
-  overflow: hidden;
-  object-fit: cover;
-  object-position: 45% 55%;
-  padding-left: 0px;
-}
-
-.Ucard7{
-  color: #BC3434;
-  text-align: left;
-  line-height: 0px;
-  box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 20%;
   height: 330px;
   overflow: hidden;
   margin-left: 80px;
 }
-.Uinfo7{
+
+.Uinfo6 {
   color: #FF4747;
   padding-left: 10px;
   font-weight: 500;
 }
-.Uname7{
+
+.Uname6 {
   padding: 2px 0px 3px 10px;
   font-weight: 600;
 }
-.Uimage7{
+
+.Uimage6 {
   height: 250px;
   overflow: hidden;
   object-fit: cover;
@@ -1247,9 +1362,33 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-/* @media (max-width: 1000px) {
-  .team-container {
-    background-color: black;
-  }
-} */
+.Ucard7 {
+  color: #BC3434;
+  text-align: left;
+  line-height: 0px;
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 330px;
+  overflow: hidden;
+  margin-left: 80px;
+}
 
+.Uinfo7 {
+  color: #FF4747;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.Uname7 {
+  padding: 2px 0px 3px 10px;
+  font-weight: 600;
+}
+
+.Uimage7 {
+  height: 250px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 45% 55%;
+  padding-left: 0px;
+}
