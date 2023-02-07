@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
 }
 
 .top1 {
-  padding-top: 100px;
+  padding-top: 125px;
 }
 
 .top {
@@ -184,15 +184,6 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-/* Second row under board */
-.board2 {
-  background-color: white;
-  border: black;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .Bcard5 {
   color: #BC3434;
   text-align: left;
@@ -263,10 +254,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Binfo7 {
@@ -292,10 +284,9 @@ body::-webkit-scrollbar {
 .solar1 {
   background-color: white;
   border: black;
-  width: 80%;
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Scard1 {
@@ -304,9 +295,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Sinfo1 {
@@ -334,10 +327,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Sinfo2 {
@@ -365,10 +359,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Sinfo3 {
@@ -396,10 +391,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Sinfo4 {
@@ -421,25 +417,17 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-/* Second row under solar */
-.solar2 {
-  background-color: white;
-  border: black;
-  width: 80%;
-  display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 .Scard5 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Sinfo5 {
@@ -467,10 +455,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Sinfo6 {
@@ -498,10 +487,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Sinfo7 {
@@ -527,10 +517,9 @@ body::-webkit-scrollbar {
 .hull1 {
   background-color: white;
   border: black;
-  width: 80%;
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Hcard1 {
@@ -539,9 +528,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Hinfo1 {
@@ -569,10 +560,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Hinfo2 {
@@ -600,10 +592,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Hinfo3 {
@@ -631,10 +624,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Hinfo4 {
@@ -656,25 +650,17 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-/* Second row under hull */
-.hull2 {
-  background-color: white;
-  border: black;
-  width: 80%;
-  display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 .Hcard5 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Hinfo5 {
@@ -702,10 +688,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Hinfo6 {
@@ -733,10 +720,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Hinfo7 {
@@ -762,10 +750,9 @@ body::-webkit-scrollbar {
 .drivetrain1 {
   background-color: white;
   border: black;
-  width: 80%;
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Dcard1 {
@@ -774,9 +761,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Dinfo1 {
@@ -804,10 +793,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Dinfo2 {
@@ -835,10 +825,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Dinfo3 {
@@ -866,10 +857,10 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
 }
 
 .Dinfo4 {
@@ -891,25 +882,17 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-/* Second row under drivetrain */
-.drivetrain2 {
-  background-color: white;
-  border: black;
-  width: 80%;
-  display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 .Dcard5 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Dinfo5 {
@@ -937,10 +920,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Dinfo6 {
@@ -966,10 +950,9 @@ body::-webkit-scrollbar {
 .systems1 {
   background-color: white;
   border: black;
-  width: 80%;
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Ccard1 {
@@ -978,9 +961,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Cinfo1 {
@@ -1008,10 +993,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Cinfo2 {
@@ -1039,10 +1025,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Cinfo3 {
@@ -1070,10 +1057,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Cinfo4 {
@@ -1095,25 +1083,17 @@ body::-webkit-scrollbar {
   padding-left: 0px;
 }
 
-/* Second row under sysco */
-.systems2 {
-  background-color: white;
-  border: black;
-  width: 80%;
-  display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
 .Ccard5 {
   color: #BC3434;
   text-align: left;
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Cinfo5 {
@@ -1141,10 +1121,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Cinfo6 {
@@ -1170,10 +1151,9 @@ body::-webkit-scrollbar {
 .business1 {
   background-color: white;
   border: black;
-  width: 80%;
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Ucard1 {
@@ -1182,9 +1162,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Uinfo1 {
@@ -1212,10 +1194,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Uinfo2 {
@@ -1243,10 +1226,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Uinfo3 {
@@ -1274,10 +1258,11 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
+  flex-wrap: wrap;
 }
 
 .Uinfo4 {
@@ -1303,10 +1288,9 @@ body::-webkit-scrollbar {
 .business2 {
   background-color: white;
   border: black;
-  width: 80%;
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Ucard5 {
@@ -1315,9 +1299,10 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
+  margin: 50px 50px 0 50px;
 }
 
 .Uinfo5 {
@@ -1345,10 +1330,10 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
 }
 
 .Uinfo6 {
@@ -1376,10 +1361,10 @@ body::-webkit-scrollbar {
   line-height: 0px;
   box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 250px;
   height: 330px;
   overflow: hidden;
-  margin-left: 80px;
+  margin: 50px 50px 0 50px;
 }
 
 .Uinfo7 {
