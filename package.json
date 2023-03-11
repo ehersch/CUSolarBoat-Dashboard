@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/annesh0/2122CUSBSyscoRepo#readme",
   "dependencies": {
+    "axios": "^1.3.4",
     "mongodb": "^4.5.0"
   }
 }
