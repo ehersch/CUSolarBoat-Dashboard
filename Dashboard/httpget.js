@@ -4,7 +4,7 @@ const fs = require('fs');
 function httpget(url) {
   axios.get(url)
     .then(response => {
-      fs.writeFile('data.json', getLastThree(JSON.stringify(response.data)), function (err) {
+      fs.writeFile('data.json', JSON.stringify(response.data), function (err) {
         if (err) {
           console.log(err);
         } else {
@@ -15,11 +15,18 @@ function httpget(url) {
     .catch(error => {
       console.log(error);
     });
-}
-
-function getLastThree(data) {
-  var data1 = JSON.parse(data);
-  var length = data1
+  fs.readFile("./data.json", (err, jsonString) => {
+    if (err) {
+      console.log("Error reading file from disk:", err);
+      return;
+    }
+    try {
+      const data = JSON.parse(jsonString);
+      console.log(data.logs[data.logs.length - 1].Readings[data.logs[data.logs.length - 1].Readings.length - 1]);
+    } catch (err) {
+      console.log(err);
+    }
+  });
 }
 
 httpget('http://0.0.0.0:4000/all-logs')
