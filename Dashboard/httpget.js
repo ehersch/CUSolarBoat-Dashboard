@@ -22,7 +22,9 @@ function httpget(url) {
     }
     try {
       const data = JSON.parse(jsonString);
-      console.log(data.logs[data.logs.length - 1].Readings[data.logs[data.logs.length - 1].Readings.length - 1]);
+      var index = data.logs[data.logs.length - 1].Readings[data.logs[data.logs.length - 1].Readings.length - 1];
+      console.log("V1:", index["V1"], "\nV2:", index["V2"], "\nV3:", index["V3"]);
+
     } catch (err) {
       console.log(err);
     }
