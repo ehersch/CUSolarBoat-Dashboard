@@ -1,7 +1,10 @@
-const fs = require('fs');
-const d3 = await import("d3");
+import fs from 'fs'
+import {scaleTime, scaleLinear, axisBottom, axisLeft, line, select, extent, max} from 'd3'
 
-main();
+// const fs = require('fs');
+// const d3 = require("d3");
+
+// main();
 
 
 
@@ -20,24 +23,24 @@ fs.readFile("./data.json", (err, jsonString) => {
     const width = 960 - margin.left - margin.right;
     const height = 500 - margin.top - margin.bottom;
 
-    const x = d3.scaleTime().range([0, width]);
-    const y = d3.scaleLinear().range([height, 0]);
+    const x = scaleTime().range([0, width]);
+    const y = scaleLinear().range([height, 0]);
 
-    const xAxis = d3.axisBottom(x);
-    const yAxis = d3.axisLeft(y);
+    const xAxis = axisBottom(x);
+    const yAxis = axisLeft(y);
 
-    const line = d3.line()
+    var l = line()
       .x(d => x(new Date(d.Timestamp)))
       .y(d => y(d.V1));
 
-    const svg = d3.select("body").append("svg")
+    const svg = select("body").append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
       .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    x.domain(d3.extent(labels, d => new Date(d)));
-    y.domain([0, d3.max(v1Data, d => d)]);
+    x.domain(extent(labels, d => new Date(d)));
+    y.domain([0, max(v1Data, d => d)]);
 
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
@@ -56,7 +59,7 @@ fs.readFile("./data.json", (err, jsonString) => {
     svg.append("path")
       .datum(readings)
       .attr("class", "line")
-      .attr("d", line);
+      .attr("d", l);
 
   } catch (err) {
     console.log(err);

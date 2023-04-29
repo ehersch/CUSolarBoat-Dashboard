@@ -185,7 +185,7 @@ def reset():
 
 @app.route("/collect/")
 def collect():
-    #s = Serial(port='/dev/cu.usbmodem11101', baudrate=9600)
+    # s = Serial(port='/dev/cu.usbmodem1101', baudrate=9600)
     s = Serial(port='COM4', baudrate=9600, timeout=.1)
     s.flushInput()
     # Serial.close(s)
