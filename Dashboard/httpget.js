@@ -1,8 +1,5 @@
 import axios from 'axios'
 import fs from 'fs'
-// const axios = require('axios');
-// const fs = require('fs');
-/*used to request data from the url as type ...*/
 
 function httpget(url) {
   axios.get(url)
@@ -16,7 +13,7 @@ function httpget(url) {
       });
     })
     .catch(error => {
-      console.log(error);
+      // console.log(error);
     });
   fs.readFile("./data.json", (err, jsonString) => {
     if (err) {
