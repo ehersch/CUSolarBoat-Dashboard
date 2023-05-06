@@ -11,6 +11,11 @@ logs_association_table = db.Table(
     db.Column("readings_id", db.Integer, db.ForeignKey("readings.id")),
 )
 
+class BoolVal():
+    flag = False
+    def __init__(self):
+        self.flag = False
+
 class Logs(db.Model):
     __tablename__ = "logs"
     id = db.Column(db.Integer, primary_key=True)

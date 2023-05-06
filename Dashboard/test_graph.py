@@ -17,7 +17,7 @@ while True:
     voltage_values = [v1Data[-1], v2Data[-1], v3Data[-1]]
     plt.bar(x_pos, voltage_values)
     plt.xticks(x_pos, ['V1', 'V2', 'V3'])
-    plt.yticks(range(0, 101, 10))
+    plt.yticks(range(0, 38, 2))
     plt.title('Voltage Readings')
     plt.xlabel('Voltage Reading')
     plt.ylabel('Voltage')

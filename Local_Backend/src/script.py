@@ -12,7 +12,7 @@ import json
 from flask import request
 # pprint library is used to make the output look more pretty
 from pprint import pprint
-
+from db import BoolVal
 app = Flask(__name__)
 db_filename = "Sysco.db"
 
@@ -183,6 +183,11 @@ def reset():
     db.create_all()
     return success_response("yes")
 
+@app.route("/stop/")
+def stop():
+    BoolVal.flag = False
+    return success_response("yes")
+
 @app.route("/collect/")
 def collect():
     # s = Serial(port='/dev/cu.usbmodem1101', baudrate=9600)
@@ -205,7 +210,8 @@ def collect():
     #         # Issue the serverStatus command and print the results
     # serverStatusResult=db.command("serverStatus")
     time.sleep(1)
-    while True:
+    BoolVal.flag = True
+    while BoolVal.flag:
         try:
             ser_bytes = str(s.readline())
             time.sleep(1)
