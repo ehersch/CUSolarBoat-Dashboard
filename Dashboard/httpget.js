@@ -1,6 +1,9 @@
-const axios = require('axios');
-const fs = require('fs');
+import axios from 'axios'
+import fs from 'fs'
+// const axios = require('axios');
+// const fs = require('fs');
 /*used to request data from the url as type ...*/
+
 function httpget(url) {
   axios.get(url)
     .then(response => {
@@ -22,6 +25,7 @@ function httpget(url) {
       const data = JSON.parse(jsonString);
       var index = (data.logs[data.logs.length - 1].Readings[data.logs[data.logs.length - 1].Readings.length - 1]);
       console.log("V1: ", index["V1"], "\nV2: ", index["V2"], "\nV3: ", index["V3"])
+
     } catch (err) {
       console.log(err);
     }
