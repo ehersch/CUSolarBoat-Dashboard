@@ -1,6 +1,7 @@
 import json
 import matplotlib.pyplot as plt
 from subprocess import run
+import time
 
 while True:
     with open('./data.json') as f:
@@ -23,7 +24,9 @@ while True:
     for i, v in enumerate(voltage_values):
         plt.text(i, v+1, str(v), ha='center', fontweight='bold')
 
-    plt.show()
+    plt.draw()
+    plt.pause(5)
+    plt.clf()
 
     run(["node", "httpget.js"])
 
