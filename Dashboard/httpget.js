@@ -7,8 +7,6 @@ function httpget(url) {
       fs.writeFile('data.json', JSON.stringify(response.data), function (err) {
         if (err) {
           console.log(err);
-        } else {
-          console.log('Data written to file');
         }
       });
     })
@@ -22,8 +20,8 @@ function httpget(url) {
     }
     try {
       const data = JSON.parse(jsonString);
-      var index = data.logs[data.logs.length - 1].Readings[data.logs[data.logs.length - 1].Readings.length - 1];
-      console.log("V1:", index["V1"], "\nV2:", index["V2"], "\nV3:", index["V3"]);
+      var index = (data.logs[data.logs.length - 1].Readings[data.logs[data.logs.length - 1].Readings.length - 1]);
+      console.log("V1: ", index["V1"], "\nV2: ", index["V2"], "\nV3: ", index["V3"])
 
     } catch (err) {
       console.log(err);
