@@ -1,14 +1,10 @@
-import test_graph.py
-import httpget.js
-from subprocess import call
-import subprocess
+from subprocess import run
 
-is_running = true
+is_running = True
 
-
-def main () :
-  while is_running:
-      call(["node","httpget.js"])
-      call(["python","test_graph.py"])
+def main():
+    while is_running:
+        run(["node", "httpget.js"])
+        run(["python", "test_graph.py"])
 
 main()
