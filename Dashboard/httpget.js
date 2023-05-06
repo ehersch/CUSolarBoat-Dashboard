@@ -14,7 +14,8 @@ function httpget(url) {
       });
     })
     .catch(error => {
-      console.log(error);
+      // keep this commented out to only display last three voltages
+      // console.log(error);
     });
   fs.readFile("./data.json", (err, jsonString) => {
     if (err) {
