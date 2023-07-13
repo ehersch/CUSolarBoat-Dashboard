@@ -1,4 +1,4 @@
-# 2122CUSBSyscoRepo
+# Cornell Solar Boat Dashboard
 
 Contributed to the Dashboard in Spring 2023.
 
